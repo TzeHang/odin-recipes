@@ -1,0 +1,11 @@
+/*For example, you want an element that has both X and Y to have one set of styles, while an element with X and Z has a completely different set of styles.*/
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
