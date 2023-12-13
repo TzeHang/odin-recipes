@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript Fundamental Part 1</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+
+    // arrangement of declaring variables
+    let user1 = 'Max';
+    let age1 = 22;
+    let message1 = "Hello world!";
+
+    let user2 = 'Suphaphornd'
+    , age2 = 22
+    , message2 = "Hello world!";
+
+    //tasks
+    let admin = ''
+    , name = 'John';
+    admin = name;
+    alert(admin);
+
+    let planet = 'Earth';
+    let currentUser = 'John';
+
+    //operators
+    //Modify in place
+    let n = 2;
+    n = n + 5;
+    n = n * 2;
+
+    let m = 2;
+    m += 5;
+    m *= 2;
+    alert (n);
+
+    let o = 2;
+    o *= 3 + 5;
+    alert (o);
+
+    let counter = 2;
+    counter ++;      // works the same as n = n + 1, but is shorter.
+    alert (counter); // answer is 3
+
+    let count = 2;
+    count --;      // works the same as n = n - 1, but is shorter.
+    alert (count); // answer is 1
+
+    // .............................................................
+    //prefix and postfix
+    //prefix
+    let apple = 1;
+    let a = ++apple;
+    alert (a); // answer is 2, because it returns the same value. (if we want to immediately use the new value)
+    //postfix
+    let peach = 1;
+    let b = peach++;
+    alert (b); // answer is 1, because it returns the old value first. (if we want to use previous value)
+    //example
+    //prefix
+    let bread = 1;
+    alert (2 * bread)
+    ++bread; // answer is 4.
+
+    let milk = 1;
+    alert (2 * bread);
+    bread++; // answer is 2.
+
+  </script>
+</body>
+</html>
